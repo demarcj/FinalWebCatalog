@@ -10,21 +10,22 @@
 <body>
 <div id="menu"></div>
 <div class="container">
-    <form action="../index.jsp">
-        <label for="movieName">Title</label>
-        <input type="text" id="movieName">
+    <form action="../jsp/addMovie.jsp" method="post">
+        <label for="movieTitle">Title</label>
+        <input type="text" id="movieTitle" name="movieTitle">
         <label for="genre">Genre</label>
-        <input type="text" id="genre">
+        <input type="text" id="genre" name="genre">
+        <label for="yearList">Year</label>
+        <input type="text" id="yearList" name="yearList">
         <label for="price">Price</label>
-        <input type="text" id="price">
-        <label for="year">Year</label>
-        <input type="text" id="year">
+        <input type="text" id="price" name="price">
         <label for="image">Image Url</label>
         <input type="text" id="image">
         <label for="description">Description</label>
         <textarea name="" id="description" cols="30" rows="10"></textarea>
         <input type="submit">
         <input type="reset">
-</div></form>
+    </form>
+</div>
 </body>
 </html>

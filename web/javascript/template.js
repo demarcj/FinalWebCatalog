@@ -17,14 +17,15 @@ function createMenu() {
 function createAdminMenu() {
     getIdMenu = document.getElementById("menu");
     getIdMenu.innerHTML = "<ul class='list'>" +
-        "<li><a href='jsp/viewAllMovie.jsp'>View Movie List</a>" +
-        "<ul>" +
-        "<li><a href='action.jsp'>Action</a></li>" +
-        "<li><a href='drama.jsp'>Drama</a></li>" +
-        "<li><a href='comedy.jsp'>Comedy</a></li>" +
-        "</ul>" +
-        "</li>" +
-        "<li><a href='../admin.html'>Signout</a></li>";
+        "<li><a href='viewAllMovieAdmin.jsp'>View Movie List</a>" +
+            "<ul>" +
+                "<li><a href='action.jsp'>Action</a></li>" +
+                "<li><a href='drama.jsp'>Drama</a></li>" +
+                "<li><a href='comedy.jsp'>Comedy</a></li>" +
+            "</ul>" +
+        "<li><a href='../www/form.html'>Update</a></li>" +
+        "<li><a href='../www/admin.html'>Signout</a></li>" +
+    "</ul>";
 }
 
 function createTitle() {

@@ -14,6 +14,10 @@
     <title id="title"></title>
 </head>
 <body>
-
+<div id="menu"></div>
+<script>
+    createAdminMenu();
+    createTitle();
+</script>
 </body>
 </html>

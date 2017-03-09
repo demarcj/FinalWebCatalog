@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: paperspace
   Date: 3/9/2017
-  Time: 10:43 AM
+  Time: 4:58 PM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -14,12 +14,8 @@
     <title id="title"></title>
 </head>
 <body>
-<div class="menu"></div>
-<div class="container">
-
+<div>
+    <h1><%=request.getParameter("movieTitle")%></h1>
 </div>
-<script>
-    createAdminMenu();
-</script>
 </body>
 </html>

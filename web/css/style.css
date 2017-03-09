@@ -30,6 +30,7 @@ li a{
 /*Text Properties*/
 h1{
     text-align: center;
+    padding: 25px;
 }
 
 /*Anchor Properties*/
@@ -41,9 +42,29 @@ a{
 label{
     display: block;
 }
+form{
+    display: inline;
+}
 input{
     display: block;
+    padding: 5px;
 }
 input[type="reset"], input[type="submit"]{
     display: inline;
+}
+button{
+    padding: 5px;
+}
+
+/*Table Properties*/
+table, td, th {
+    border: 1px solid black;
+}
+th{
+    font-size: 24px;
+    padding: 25px;
+}
+table{
+    border-collapse: collapse;
+    margin: auto;
 }
