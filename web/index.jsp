@@ -8,20 +8,19 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
   <head>
-    <title>Motown Movies</title>
+    <script src="javascript/script.js"></script>
+    <script src="javascript/template.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title id="title"></title>
   </head>
   <body>
+  <div id="menu"></div>
   <div class="container">
-    <ul>
-      <li><a href="jsp/viewAllMovie.jsp">View Movie List</a>
-        <ul>
-          <li><a href="jsp/action.jsp">Action</a></li>
-          <li><a href="jsp/drama.jsp">Drama</a></li>
-          <li><a href="jsp/comedy.jsp">Comedy</a></li>
-        </ul>
-      </li>
-      <li><a href="admin.html"></a>Admin</li>
-    </ul>
+    <h1>Welcome to Motown Movies</h1>
   </div>
+  <script>
+    createMenu();
+    createTitle();
+  </script>
   </body>
 </html>

@@ -11,6 +11,7 @@
     <title>Motown Movies</title>
 </head>
 <body>
+<script src="javascript/template.js"></script>
 <div class="container">
 
 </div>

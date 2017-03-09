@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
   User: paperspace
-  Date: 3/8/2017
-  Time: 4:48 PM
+  Date: 3/9/2017
+  Time: 10:42 AM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -15,7 +15,10 @@
 </head>
 <body>
 <div class="container">
-
+    <h1>Movie List</h1>
+    <table>
+        <th></th>
+    </table>
 </div>
 </body>
 </html>

@@ -1,22 +1,25 @@
 <%--
   Created by IntelliJ IDEA.
   User: paperspace
-  Date: 3/8/2017
-  Time: 4:49 PM
+  Date: 3/9/2017
+  Time: 10:43 AM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Motown Movies</title>
+    <script src="../javascript/script.js"></script>
+    <script src="../javascript/template.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title id="title"></title>
 </head>
 <body>
-<script src="javascript/template.js"></script>
+<div class="menu"></div>
 <div class="container">
-
+    
 </div>
 <script>
-    createMenu();
+    createAdminMenu();
 </script>
 </body>
 </html>
